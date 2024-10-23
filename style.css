@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.checked{
+    text-decoration:  line-through;
+    color: rgb(247, 247, 247);
+}
+
+.close{
+    cursor: pointer;
+    color: red;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;    
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url("https://img.freepik.com/vetores-gratis/modelo-de-design-de-plano-de-fundo-gradiente-minimalista_483537-2861.jpg?t=st=1729694535~exp=1729698135~hmac=535c73ae8c6ae793f93a65141d27b0eda22e7009b706c3104d01f0f6aec55257&w=1380");
+    color: aliceblue;
+    display: flex;
+    
+    
+}
+
+fieldset{
+    border-radius: 15px;
+    padding: 10px;
+    gap: 10px;
+}
